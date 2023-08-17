@@ -1,9 +1,5 @@
 pipeline {
     agent any 
-    tools { 
-      maven 'MAVEN_HOME' 
-      jdk 'openjdk-11' 
-    }
     stages {
         stage('clone repo and clean') { 
             steps {
