@@ -22,5 +22,11 @@ pipeline {
                 sh "mvn package"
             }
         }
+        stage('Document') { 
+            steps {
+                echo "------------------This is documentation part--------------"
+               
+            }
+        }
     }
 }
