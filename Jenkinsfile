@@ -7,6 +7,7 @@ pipeline {
     stages {
         stage('clone repo and clean') { 
             steps {
+                echo "-------------cleaning------------"
                 sh "mvn clean"
             }
         }
