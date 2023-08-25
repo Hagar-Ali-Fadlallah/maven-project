@@ -25,7 +25,7 @@ pipeline {
         stage('Document') { 
             steps {
                 echo "------------------This is documentation part--------------"
-                sh "ls -l"
+               
                
             }
         }
